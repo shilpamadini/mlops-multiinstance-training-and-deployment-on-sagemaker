@@ -4,13 +4,13 @@
 This project extends a previously completed image classification pipeline by preparing it for production-grade deployment using multiple AWS services. The model classifies dog breeds using a pretrained ResNet-50 architecture trained and deployed via Amazon SageMaker.
 In this phase, the focus was on optimizing for scalability, efficiency, and real-world reliability through:
 
-. Multi-instance distributed training on SageMaker
+1. Multi-instance distributed training on SageMaker
 
-. EC2-based model training outside SageMaker
+2. EC2-based model training outside SageMaker
 
-. Lambda-based inference endpoint integration
+3. Lambda-based inference endpoint integration
 
-. Security, concurrency, and auto-scaling configuration
+4. Security, concurrency, and auto-scaling configuration
 
 These steps represent the transition from a research prototype to a production-ready ML system.
 
@@ -207,6 +207,7 @@ This ensures that SageMaker dynamically adjusts compute capacity based on actual
 
 
 S3 bucket retained only for dataset storage
+
 
 
 
