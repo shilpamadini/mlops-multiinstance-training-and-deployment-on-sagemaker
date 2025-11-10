@@ -205,9 +205,3 @@ This ensures that SageMaker dynamically adjusts compute capacity based on actual
 
 ![autoscaling](https://github.com/shilpamadini/mlops-multiinstance-training-and-deployment-on-sagemaker/blob/469911c1194e13ec18a693bd245e9899b63acc12/images/autoscaling-endpoint.png)
 
-
-S3 bucket retained only for dataset storage
-
-
-
-
